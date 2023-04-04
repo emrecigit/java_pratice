@@ -8,28 +8,29 @@ public class Q01 {
 		/*
 		 * Kullanicidan alacaginiz iki sayiyi yine kullaniciya sectireceginiz
 		 *  dort islemden biri ile isleme koyup sonucun yazdiriniz
+		 
 		 */
 		Scanner scan=new Scanner(System.in);
-		System.out.println("Bi sayı girive: ");
+		System.out.println("Bi sayÄ± girive: ");
 		double sayi1=scan.nextDouble();
-		System.out.println("Bi dene daha sayı girive:");
+		System.out.println("Bi dene daha sayÄ± girive:");
 		double sayi2=scan.nextDouble();
-		System.out.println("işlem seçiniz(+,-,*,/)");
+		System.out.println("iÅŸlem seÃ§iniz(+,-,*,/)");
 		char islem=scan.next().charAt(0);
 		if (islem=='+') {
-			System.out.println("sayıların toplamı:"+(sayi1+sayi2));
+			System.out.println("sayÄ±larÄ±n toplamÄ±:"+(sayi1+sayi2));
 		} else if(islem=='-'){
-			System.out.println("sayıların farkı: "+(sayi1-sayi2));
+			System.out.println("sayÄ±larÄ±n farkÄ±: "+(sayi1-sayi2));
 
 		}else if(islem=='*') {
-			System.out.println("sayıların çarpımı: "+(sayi1*sayi2));
+			System.out.println("sayÄ±larÄ±n Ã§arpÄ±mÄ±: "+(sayi1*sayi2));
 			
 		 
 		}else if (islem=='/') {
-			System.out.println("sayıların bölümü:"+(sayi1/sayi2));
+			System.out.println("sayÄ±larÄ±n bÃ¶lÃ¼mÃ¼:"+(sayi1/sayi2));
 			
 		}else {
-			System.out.println("beni bak düzgün işlem seç!!");
+			System.out.println("beni bak dÃ¼zgÃ¼n iÅŸlem seÃ§!!");
 		} 
 		{
 			
